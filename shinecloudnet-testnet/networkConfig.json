@@ -1,0 +1,14 @@
+{
+  "seed": "",
+  "persistent_peers": "069c570ea3d01d08ac28201cc31dc841da9cb8bb@18.176.60.252:26656,345cd8237f259441f4f2af4f0940c0059aad675b@54.250.252.227:26656",
+  "upgrade": [
+    {
+      "name": "RewardUpgrade",
+      "height": 560000
+    },
+    {
+      "name": "TokenIssueHeight",
+      "height": 9223372036854775807
+    }
+  ]
+}
