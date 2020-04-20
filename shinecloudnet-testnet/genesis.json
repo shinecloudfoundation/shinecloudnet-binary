@@ -36,7 +36,7 @@
         "coins": [
           {
             "denom": "uscds",
-            "amount": "100000000000"
+            "amount": "1000000000000"
           }
         ],
         "sequence_number": "0",
@@ -56,7 +56,7 @@
         "coins": [
           {
             "denom": "uscds",
-            "amount": "100000000000"
+            "amount": "1000000000000"
           }
         ],
         "sequence_number": "0",
@@ -76,7 +76,7 @@
         "coins": [
           {
             "denom": "uscds",
-            "amount": "100000000000"
+            "amount": "1000000000000"
           }
         ],
         "sequence_number": "0",
@@ -96,7 +96,7 @@
         "coins": [
           {
             "denom": "uscds",
-            "amount": "100000000000"
+            "amount": "1000000000000"
           }
         ],
         "sequence_number": "0",
@@ -116,7 +116,7 @@
         "coins": [
           {
             "denom": "uscds",
-            "amount": "100000000000"
+            "amount": "1000000000000"
           }
         ],
         "sequence_number": "0",
@@ -136,7 +136,7 @@
         "coins": [
           {
             "denom": "uscds",
-            "amount": "100000000000"
+            "amount": "1000000000000"
           }
         ],
         "sequence_number": "0",
@@ -156,7 +156,7 @@
         "coins": [
           {
             "denom": "uscds",
-            "amount": "100000000000"
+            "amount": "1000000000000"
           }
         ],
         "sequence_number": "0",
@@ -176,7 +176,7 @@
         "coins": [
           {
             "denom": "uscds",
-            "amount": "100000000000"
+            "amount": "1000000000000"
           }
         ],
         "sequence_number": "0",
@@ -196,7 +196,7 @@
         "coins": [
           {
             "denom": "uscds",
-            "amount": "100000000000"
+            "amount": "1000000000000"
           }
         ],
         "sequence_number": "0",
@@ -216,7 +216,7 @@
         "coins": [
           {
             "denom": "uscds",
-            "amount": "100000000000"
+            "amount": "1000000000000"
           }
         ],
         "sequence_number": "0",
@@ -236,7 +236,7 @@
         "coins": [
           {
             "denom": "uscds",
-            "amount": "14000000000000"
+            "amount": "140000000000000"
           }
         ],
         "sequence_number": "0",
