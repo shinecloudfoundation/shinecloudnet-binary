@@ -13,7 +13,7 @@
 NAME="shinecloudnet-validator-daemon"
 PATH="/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin"
 APPDIR={{WORKDIR}}
-APPBIN="$APPDIR/scloud"
+APPBIN="$APPDIR/bin/{{VERSION}}/scloud"
 APPARGS="start --home {{SCLOUD_HOME}}"
 LOGFILE="$APPDIR/scloud.log"
 USER="{{USER_NAME}}"
