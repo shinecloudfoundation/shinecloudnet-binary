@@ -1,0 +1,314 @@
+{
+  "genesis_time": "2020-06-23T12:00:00Z",
+  "chain_id": "shinecloudnet",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "200000",
+      "max_gas": "2000000",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "1000000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "genutil": {
+      "gentxs": [
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "huanghe",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "scloud1qwgd50k2p72m94wyewqd20lp7r39em4eytzdlr",
+                  "validator_address": "scloudvaloper1qwgd50k2p72m94wyewqd20lp7r39em4e3fqqj6",
+                  "pubkey": "scloudvalconspub1zcjduepqhf3lah3g7esde6hv0td3rp8eun33nqn5yfwuml02ma504zeya6xqcr6dsg",
+                  "value": {
+                    "denom": "uscds",
+                    "amount": "100000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A1KTZ2RkN9ZAwmSjtdXqPqRu0WOqg6lxdjaM/jUeXcVe"
+                },
+                "signature": "ljd1YUfaKHR1tyr/yJhs62ai0kd1ILcGNTo4C7ybQk1O4uftDTiqXtzr3M1HS71iWsQ56u5vLqWY18q5LRGLqw=="
+              }
+            ],
+            "memo": "114cb48cc656728e50164ee8c5235e2a4b9c43e9@18.180.156.157:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "changjiang",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "scloud1r35exs2t0jt5u9g9t2xt6k4kdyzvrwmy4ehqkl",
+                  "validator_address": "scloudvaloper1r35exs2t0jt5u9g9t2xt6k4kdyzvrwmyqm4dmx",
+                  "pubkey": "scloudvalconspub1zcjduepqkjp92xqdud6yayagvy6mxte0w8ptgmuutafhkkm3yegzc8l58uls5nalee",
+                  "value": {
+                    "denom": "uscds",
+                    "amount": "100000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AnNonCF9pLX206kOvZvtCh8j1u1YVMBLuYh5Tr5ASIjI"
+                },
+                "signature": "SiWJzUSgQycKXAPkh5A83cVtwrTFBLxXYcvGCeqGTp9oSwPG8SpbXH/jeX7sGidIe6N/hbCLnYLTl5L0Fw19pA=="
+              }
+            ],
+            "memo": "3c0c713205783bf9574aea91e4b3114f9dbe29a8@18.178.242.37:26656"
+          }
+        }
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "uscds",
+            "amount": "10000000000"
+          }
+        ],
+        "max_deposit_period": "1209600000000000"
+      },
+      "voting_params": {
+        "voting_period": "1209600000000000"
+      },
+      "tally_params": {
+        "quorum": "0.400000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto": "0.334000000000000000"
+      }
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      }
+    },
+    "mint": {
+      "minter": {
+        "remained_tokens": []
+      },
+      "params": {
+        "mint_denom": "uscds",
+        "unfreeze_amount_per_block": "920000"
+      }
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "uscds",
+        "amount": "100000000000"
+      }
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "params": null,
+    "staking": {
+      "params": {
+        "unbonding_time": "2592000000000000",
+        "max_validators": 10,
+        "max_entries": 7,
+        "bond_denom": "uscds"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "slashing": {
+      "params": {
+        "max_evidence_age": "1814400000000000",
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.000000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "supply": {
+      "supply": []
+    },
+    "accounts": [
+      {
+        "address": "scloud1r35exs2t0jt5u9g9t2xt6k4kdyzvrwmy4ehqkl",
+        "coins": [
+          {
+            "denom": "uscds",
+            "amount": "40000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ]
+      },
+      {
+        "address": "scloud1qwgd50k2p72m94wyewqd20lp7r39em4eytzdlr",
+        "coins": [
+          {
+            "denom": "uscds",
+            "amount": "40000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ]
+      },
+      {
+        "address": "scloud1dae03u5rqdqmzaadjl0d48y64jd494qpqt7z8p",
+        "coins": [
+          {
+            "denom": "uscds",
+            "amount": "40000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ]
+      },
+      {
+        "address": "scloud13a98660uywx6ypz5sp73qxtq9djv7xaawcnq49",
+        "coins": [
+          {
+            "denom": "uscds",
+            "amount": "20000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ]
+      }
+    ],
+    "asset": {
+      "params": {
+        "param_max_decimal": 10,
+        "param_issue_fee": [
+          {
+            "denom": "uscds",
+            "amount": "1000000000"
+          }
+        ],
+        "param_mint_fee": [
+          {
+            "denom": "uscds",
+            "amount": "100000000"
+          }
+        ]
+      },
+      "tokens": null
+    },
+    "distribution": {
+      "fee_pool": {
+        "community_pool": []
+      },
+      "community_tax": "0.000000000000000000",
+      "base_proposer_reward": "0.02500000000000000",
+      "bonus_proposer_reward": "0.100000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    }
+  }
+}
