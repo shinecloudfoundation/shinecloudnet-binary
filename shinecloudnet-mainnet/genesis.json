@@ -59,10 +59,10 @@
                   "type": "tendermint/PubKeySecp256k1",
                   "value": "A1KTZ2RkN9ZAwmSjtdXqPqRu0WOqg6lxdjaM/jUeXcVe"
                 },
-                "signature": "ljd1YUfaKHR1tyr/yJhs62ai0kd1ILcGNTo4C7ybQk1O4uftDTiqXtzr3M1HS71iWsQ56u5vLqWY18q5LRGLqw=="
+                "signature": "vqWhbOQ6MCrz62RjS6m6TsaFkP1dGKk9MWNU+DdoHkleYo5047zAptL04RCpswy+EhT3hKiNd1l4w+SSCEYSpA=="
               }
             ],
-            "memo": "114cb48cc656728e50164ee8c5235e2a4b9c43e9@18.180.156.157:26656"
+            "memo": "114cb48cc656728e50164ee8c5235e2a4b9c43e9@18.181.110.231:26656"
           }
         },
         {
@@ -104,10 +104,10 @@
                   "type": "tendermint/PubKeySecp256k1",
                   "value": "AnNonCF9pLX206kOvZvtCh8j1u1YVMBLuYh5Tr5ASIjI"
                 },
-                "signature": "SiWJzUSgQycKXAPkh5A83cVtwrTFBLxXYcvGCeqGTp9oSwPG8SpbXH/jeX7sGidIe6N/hbCLnYLTl5L0Fw19pA=="
+                "signature": "kvRYEouyoWq+ZQ+H6InM05bf+/GjpfKJZj6YSSIIz9xWFT7SzotxRMviDUb0HdyvUevlN8ID4AVimcv+2PSIsg=="
               }
             ],
-            "memo": "3c0c713205783bf9574aea91e4b3114f9dbe29a8@18.178.242.37:26656"
+            "memo": "3c0c713205783bf9574aea91e4b3114f9dbe29a8@3.112.87.138:26656"
           }
         }
       ]
@@ -121,13 +121,13 @@
         "min_deposit": [
           {
             "denom": "uscds",
-            "amount": "10000000000"
+            "amount": "1000000000"
           }
         ],
-        "max_deposit_period": "1209600000000000"
+        "max_deposit_period": "3600000000000"
       },
       "voting_params": {
-        "voting_period": "1209600000000000"
+        "voting_period": "3600000000000"
       },
       "tally_params": {
         "quorum": "0.400000000000000000",
@@ -281,13 +281,13 @@
         "param_issue_fee": [
           {
             "denom": "uscds",
-            "amount": "1000000000"
+            "amount": "2000000000"
           }
         ],
         "param_mint_fee": [
           {
             "denom": "uscds",
-            "amount": "100000000"
+            "amount": "1000000000"
           }
         ]
       },
