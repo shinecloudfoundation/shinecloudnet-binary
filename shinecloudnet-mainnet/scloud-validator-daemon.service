@@ -18,7 +18,7 @@ Conflicts=shutdown.target
 [Service]
 Type=forking
 Restart=always
-TimeoutSec=10s
+TimeoutSec=60s
 RuntimeMaxSec=28800
 IgnoreSIGPIPE=no
 KillMode=process
